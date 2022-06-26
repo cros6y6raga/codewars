@@ -1,0 +1,10 @@
+function powersOfTwo(n) {
+    let myArray = [];
+    for (let i = 0; i <= n; i++) {
+        myArray.push(2 ** i);
+    }
+    return myArray
+}
+
+const result = powersOfTwo(2)
+console.log(result)
